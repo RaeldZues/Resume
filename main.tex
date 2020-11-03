@@ -1,0 +1,33 @@
+
+%-------------------------
+% Resume in Latex
+% Author : Matthew Longwell
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+%--------Package includes-------
+\input{DefaultConfig/Packages.tex}
+
+%--------Formatting-------------
+\input{DefaultConfig/Formatting.tex}
+
+%-------Custom commands---------
+\input{DefaultConfig/CustomCommands.tex}
+
+% Start Resume Document 
+\begin{document}
+    %----------HEADING----------
+    \subfile{template/Heading.tex}
+    %----------OBJECTIVE---------
+    \subfile{template/Objective.tex}
+    %-----------EDUCATION-----------
+    \subfile{template/Education.tex}
+    %-----------EXPERIENCE-----------
+    \subfile{template/Experience.tex}
+    %-----------PROJECTS-----------
+    \subfile{template/Projects.tex}
+    %-----------TECHNICAL SKILLS-----------
+    \subfile{template/TechnicalSkills.tex}
+\end{document}
